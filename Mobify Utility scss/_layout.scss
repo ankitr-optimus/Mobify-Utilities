@@ -1,0 +1,179 @@
+// Layout Shift SCSS
+// ====
+// Shift the layout in any direction i.e Useful for icon, which often hang one
+// unit out towards the margins.
+//
+// Suffixes:
+// lg: large
+// md: medium
+// sm: small
+// tn: tiny
+
+
+// All(Four side margin) Shift
+// =====
+.u-shift-all-lg {
+    margin: -$unit*2 !important;
+}
+
+.u-shift-all-md {
+    margin: -$unit !important;
+}
+
+.u-shift-all-sm {
+    margin: -$sub-unit !important;
+}
+
+.u-shift-all-tn {
+    margin: -$sub-unit / 2 !important;
+}
+
+// Shift Left & Right(L & R)
+// ======
+.u-shift-l-r-lg {
+    margin-right: -$unit*2 !important;
+    margin-left: -$unit*2 !important;
+}
+
+.u-shift-l-r-md {
+    margin-right: -$unit !important;
+    margin-left: -$unit !important;
+}
+
+.u-shift-l-r-sm {
+    margin-right: -$sub-unit !important;
+    margin-left: -$sub-unit !important;
+}
+
+.u-shift-l-r-tn {
+    margin-right: -$sub-unit/2 !important;
+    margin-left: -$sub-unit/2 !important;
+}
+
+// Shift Top
+// ======
+.u-shift-top-lg {
+    margin-top: -$unit*2 !important;
+}
+
+.u-shift-top-md {
+    margin-top: -$unit !important;
+}
+
+.u-shift-top-sm {
+    margin-top: -$sub-unit !important;
+}
+
+.u-shift-top-tn {
+    margin-top: -$sub-unit/2 !important;
+}
+
+// Shift bottom
+// ======
+.u-shift-bottom-lg {
+    margin-bottom: -$unit*2 !important;
+}
+
+.u-shift-bottom-md {
+    margin-bottom: -$unit !important;
+}
+
+.u-shift-bottom-sm {
+    margin-bottom: -$sub-unit !important;
+}
+
+.u-shift-bottom-tn {
+    margin-bottom: -$sub-unit/2 !important;
+}
+
+// Shift Left
+// ====
+.u-shift-start-lg {
+    margin-left: -$unit*2 !important;
+}
+
+.u-shift-start-md {
+    margin-left: -$unit !important;
+}
+
+.u-shift-start-sm {
+    margin-left: -$sub-unit !important;
+}
+
+.u-shift-start-tn {
+    margin-left: -$sub-unit/2 !important;
+}
+
+// Shift Right
+// ====
+.u-shift-end-lg {
+    margin-right: -$unit*2 !important;
+}
+
+.u-shift-end-md {
+    margin-right: -$unit !important;
+}
+
+.u-shift-end-sm {
+    margin-right: -$sub-unit !important;
+}
+
+.u-shift-end-tn {
+    margin-right: -$sub-unit/2 !important;
+}
+
+// Float
+// ====
+.u-float-left {
+    float: left !important;
+}
+
+.u-float-right {
+    float: right !important;
+}
+
+.u-float-none {
+    float: none !important;
+}
+
+// Display
+// ===
+.u-display-block {
+    display: block !important;
+}
+
+.u-display-inline-block {
+    display: inline-block !important;
+}
+
+.u-display-inline {
+    display: inline !important;
+}
+
+.u-display-flex {
+    display: flex !important;
+}
+
+.u-display-inline-flex {
+    display: inline-flex !important;
+}
+
+.u-display-table {
+    display: table !important;
+}
+
+// Clear floated element
+// ======
+.clrfix:after {
+    content: '';
+
+    clear: both;
+
+    display: table;
+}
+
+// Border radius
+// ======
+.u-border-radius {
+    border-radius: $border-radius;
+}

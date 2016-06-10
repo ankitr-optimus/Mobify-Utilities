@@ -1,0 +1,29 @@
+// Visibility Utils
+// ===
+
+.u-visually-hidden {
+    position: absolute !important;
+
+    overflow: hidden !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.u-visibility-hidden {
+    visibility: hidden !important;
+}
+
+.u-visibility-visible {
+    visibility: visible !important;
+}
+
+// Disabled state
+// =====
+.u--disabled {
+    opacity: 0.2;
+
+    pointer-events: none;
+}
